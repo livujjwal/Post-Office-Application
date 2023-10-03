@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Post Office Application</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-page">
+      <div id="left-section">
+        <h1 id="main-heading">Post Office Application</h1>
+        <p id="main-discription">
+          This Application Allows you to extract information about the nearest
+          Post Offices, based on your location.
+        </p>
+        <img
+          src="./assests/undraw_messenger_re_8bky 1.svg"
+          alt="no-img"
+          id="left-img"
+        />
+      </div>
+      <div id="right-section">
+        <h1 id="ip-address-para"></h1>
+        <button id="get-load-page">Get Started</button>
+      </div>
+    </div>
+    <div class="load-page">
+      <div id="load-section-1">
+        <h1 id="ls1-heading"></h1>
+        <div id="ls1-display-1"></div>
+        <div id="ls1-display-2"></div>
+      </div>
+      <div id="google-map-section">
+        <h1>Your Current Location</h1>
+        <div id="google-map"></div>
+      </div>
+      <div id="load-section-2">
+        <h1 id="ls2-heading">More Information About You</h1>
+        <div id="ls2-display-1"></div>
+        <div id="ls2-display-2"></div>
+      </div>
+      <div id="load-section-3">
+        <h1 id="ls3-heading">Post Offices Near You</h1>
+        <div id="input-section">
+          <img src="./assests/Vector.svg" alt="search-icon" />
+          <input type="text" id="input" placeholder="Search By Name" />
+        </div>
+        <div id="ls3-container">
+        </div>
+      </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
