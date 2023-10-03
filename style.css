@@ -185,11 +185,12 @@ span {
   border: 3px solid #575a85;
 }
 #input {
+  outline: none;
   background-color: #000;
   border:none;
   height: 100%;
   color: #ffffff;
-  box-sizing: border-box;
+  font-size: 20px;
 }
 #input::placeholder {
   color: #b8bccc;
